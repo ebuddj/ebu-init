@@ -1,0 +1,23 @@
+{
+  "name": "ebu-init",
+  "version": "0.1.0",
+  "description": "EBU DDJ Project Init Tools",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ebu-init-project": "./bin/init-project.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Teemo Tebest <teemo.tebest@yle.fi>",
+  "license": "ISC",
+  "dependencies": {
+    "ncp": "^2.0.0",
+    "netrc": "^0.1.4",
+    "node-rest-client": "^3.1.0",
+    "promise": "^8.0.2"
+  }
+}
