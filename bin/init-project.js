@@ -126,7 +126,7 @@ const injectFiles = props => {
     injectFiles.forEach(filePath => {
       try {
         let targetFile = fs.readFileSync(props.target + filePath, 'utf8');
-        targetFile = targetFile.replace('__PROJECTNAME__', projectName);
+        targetFile = targetFile.replace(/__PROJECTNAME__/g, projectName);
         fs.writeFileSync(props.target + filePath, targetFile, 'utf8');
         console.log('Injected file at ' + filePath);
       } catch (err) {
