@@ -1,11 +1,18 @@
 import React, {Component} from 'react'
 import style from './../styles/styles.less';
 
-class Layout extends Component {
+class App extends Component {
   constructor() {
     super();
   }
-  handleChange(event) {
+  componentDidMount() {
+
+  }
+  componentWillUnMount() {
+
+  }
+  componentWillReceiveProps(props) {
+
   }
   render() {
     return (
@@ -13,4 +20,4 @@ class Layout extends Component {
     );
   }
 }
-export default Layout;
+export default App;
