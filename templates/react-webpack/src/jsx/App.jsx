@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import React, {Component} from 'react';
 import style from './../styles/styles.less';
 
 class App extends Component {
