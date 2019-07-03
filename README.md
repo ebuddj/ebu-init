@@ -1,4 +1,4 @@
-# EBU Data Journalism project initialization script. 
+# EBU Data Journalism project initialization script
 
 This project can be used to initialize an empty project.
 
