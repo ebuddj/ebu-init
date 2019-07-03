@@ -15,6 +15,7 @@
   "author": "Teemo Tebest <teemo.tebest@yle.fi>",
   "license": "ISC",
   "dependencies": {
+    "debug": "^4.1.1",
     "ncp": "^2.0.0",
     "netrc": "^0.1.4",
     "node-rest-client": "^3.1.0",
