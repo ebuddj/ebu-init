@@ -16,7 +16,9 @@ class App extends Component {
   }
   render() {
     return (
-      <div>Build your application</div>
+      <div className={style.app}>
+        Build your application
+      </div>
     );
   }
 }
