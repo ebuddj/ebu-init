@@ -8,12 +8,17 @@ class App extends Component {
   componentDidMount() {
 
   }
+  componentDidUpdate(prevProps, prevState, snapshot) {
+
+  }
   componentWillUnMount() {
 
   }
-  componentWillReceiveProps(props) {
-
-  }
+  // shouldComponentUpdate(nextProps, nextState) {}
+  // static getDerivedStateFromProps(props, state) {}
+  // getSnapshotBeforeUpdate(prevProps, prevState) {}
+  // static getDerivedStateFromError(error) {}
+  // componentDidCatch() {}
   render() {
     return (
       <div className={style.app}>
