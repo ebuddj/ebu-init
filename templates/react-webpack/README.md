@@ -7,6 +7,12 @@
 **Sources**
 * []()
 
+**EBU links**
+* []()
+
+**Used by**
+* []()
+
 ## How to use
 
 If you are interested in using the interactive version please contact Teemo Tebest, tebest@ebu.ch
@@ -15,7 +21,7 @@ This visualization is part of the EBU News Exchange’s Data Journalism project.
 
 ## Rights of usage
 
-The material may be used only by Eurovision active members and sub-licensees.
+The material may be used only by [Eurovision active members and sub-licensees](https://www.ebu.ch/eurovision-news/members-and-sublicensees).
 
 ## How to build and develop
 
