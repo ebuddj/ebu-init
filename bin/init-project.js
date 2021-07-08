@@ -87,9 +87,6 @@ const createProject = function () {
     // .then(initVersionControl)
     .then(injectFiles)
     .then(() => console.log('Done!'));
-  process.chdir(basePath + '/' + projectName);
-  exec('npm install');
-  exec('subl .');
 };
 
 const copyFiles = props => {
@@ -133,6 +130,9 @@ const injectFiles = props => {
         console.log('No file at ' + filePath);
       }
     });
+    process.chdir(basePath + '/' + projectName);
+    exec('npm install');
+    exec('subl .');
   });
 
 };
