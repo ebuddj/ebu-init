@@ -18,7 +18,7 @@
     "debug": "^4.1.1",
     "ncp": "^2.0.0",
     "netrc": "^0.1.4",
-    "node-rest-client": "^3.1.0",
+    "node-rest-client": "^3.1.1",
     "promise": "^8.0.2"
   }
 }
